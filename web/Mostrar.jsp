@@ -15,7 +15,10 @@
         <% String lista = (String) request.getAttribute("lista");%>
     </head>
     <body>
-        <h1>Descripcion de los componentes seleccionados</h1>
-        <h2><%= lista%></h2>
+        <div>
+                <h1>Descripcion de los componentes seleccionados</h1>
+                <h2><%= lista%></h2>
+        </div>
+        
     </body>
 </html>
